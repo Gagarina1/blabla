@@ -1,8 +1,25 @@
-html, body {
-    margin: 0;
-    padding: 0;
-  }
-  canvas {
-    display: block;
-  }
-  
+*{
+  box-sizing: border-box;
+  outline: 1px solid blueviolet;
+}
+html {
+  font: system-ui, sans-serif;
+  font-style: italic;
+}
+
+body {
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+header, footer {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
