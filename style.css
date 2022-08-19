@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    outline: 1px solid blueviolet;
+  }
+  html {
+    font: system-ui, sans-serif;
+    font-style: italic;
+  }
+  
+  body {
+     padding: 0;
+     margin: 0 auto;
+  }
+  
+  header{
+    padding: 2ypx 0;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    max-width: 40px;
+  }
+  
+  nav {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  main
+  #vis{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+  }
